@@ -1,0 +1,37 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    facter (2.5.1)
+    fast_gettext (1.8.0)
+    hiera (3.5.0)
+    hocon (1.2.5)
+    httpclient (2.8.3)
+    locale (2.1.2)
+    multi_json (1.13.1)
+    puppet (6.5.0)
+      facter (> 2.0.1, < 4)
+      fast_gettext (~> 1.1)
+      hiera (>= 3.2.1, < 4)
+      httpclient (~> 2.8)
+      locale (~> 2.1)
+      multi_json (~> 1.10)
+      puppet-resource_api (~> 1.5)
+      semantic_puppet (~> 1.0)
+    puppet-resource_api (1.6.2)
+      hocon (>= 1.0)
+    semantic_puppet (1.0.2)
+    sorbet (0.4.4253)
+      sorbet-static (= 0.4.4253)
+    sorbet-runtime (0.4.4253)
+    sorbet-static (0.4.4253-x86_64-linux)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  puppet
+  sorbet
+  sorbet-runtime
+
+BUNDLED WITH
+   1.17.3
